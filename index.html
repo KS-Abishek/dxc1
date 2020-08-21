@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>REGISTER FORM</title>
+</head>
+<body>
+	<form action="result.html">
+		<h1>Registration form</h1>
+		<table cellspacing="10" cellpadding="10" align="center">
+			<tr>
+				<td>First name</td>
+				<td><input type="text" name="firstName" id="firstname"></td>
+			</tr>
+			<tr>
+				<td>First name</td>
+				<td><input type="text" name="lastName" id="Reddy"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" name="gender" id="male" value="male">Male
+					<input type="radio" name="gender" id="female" value="female">Female
+					<input type="radio" name="gender" id="third" value="transgender">others
+				</td>
+			</tr>
+			<tr>
+				<td>Hobbies</td>
+				<td><input type="checkbox" name="hobbies" value="hobbies" value="Cricket">Cricket
+				 <input type="checkbox" name="hobbies" value="hobbies" value="FootBall">FootBall 
+				<input type="checkbox" name="hobbies" value="hobbies" value="Hockey">Hockey
+				<input type="checkbox" name="hobbies" value="hobbies" value="Traveling">Traveling
+				</td>
+			</tr>
+			<td>Qualification</td>
+			<td><select name="qualification" >  <!--multiple="multiple"-->
+					<option value="MCA">MCA</option>
+					<option value="MBA">MBA</option>
+					<option value="Mtech" >MTech</option> <!-- selected="selected"-->
+					<option value="Btech">BTech</option>
+			</select></td>
+			</tr>
+			
+			<tr><td>DOB</td>
+			<td> <input type ="date"  name ="dob" id= "dob"></td></tr>
+			
+			
+			<tr>
+				<td><input type="submit" value="SignUp"> <input
+					type="submit" value="Register" formaction="Home.html"></td>
+			</tr>
+		</table>
+	</form>
+	</body>
+</html>
